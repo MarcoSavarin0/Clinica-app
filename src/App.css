@@ -1,0 +1,400 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button i {
+  margin-right: 5px;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.navbar{
+  background-color: #e2e0e0;
+ 
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.carrousel-cont {
+  position: relative; /* Establece la posición relativa para el section */
+  overflow: hidden;
+  height: 500px;
+  
+}
+
+.welcome-text {
+  position: absolute;   
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 24px; 
+  text-align: center; 
+  z-index: 1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#carouselExampleSlidesOnly .carousel-item img {
+  width: 100%; 
+  height: auto; 
+}
+.about-us {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.h3-about-us {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight:bold;
+  
+}
+
+.hr-about-us {
+  border-top: 1px solid #ccc;
+}
+ hr {
+  width: 20%;
+  margin: 20px auto;
+}
+.about-us p{
+  font-size: 20px;
+  line-height: 2.5;
+}
+.imagen {
+  height: 700px;
+  background-image: url('../public/img/salaestar.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.servicios h3 {
+  text-align: center;
+  margin: 10px 0;
+  font-weight:bold;
+}
+
+.servicios .card {
+  margin: 10px auto;
+}
+.card {
+  border-radius: 50px;
+  height: 14rem;
+  line-height: 2.5;
+}
+
+.card i {
+  font-size: 50px;
+  margin: 10px auto;
+ 
+}
+.card:hover {
+  transform: scale(1.1);
+ 
+  transition: all 0.3s ease-in-out;
+}
+.card1:hover i{
+  color: red;
+  transition: all 300ms ease-in-out;
+}
+.card2:hover i{
+  color: rgb(64, 215, 56);
+  transition: all 300ms ease-in-out;
+}
+.card3:hover i{
+  color: rgb(43, 39, 241);
+  transition: all 300ms ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+.horarios{
+  text-align: center;
+}
+
+.turnos h3 {
+  text-align: center;
+  margin: 14px 0;
+  
+  font-weight:bold;
+}
+.turnos {
+  background-color: #F8F8F8;
+ 
+  
+}
+.fa-calendar ,.fa-clock{
+  margin-right: 8px;
+}
+.contHorarios{
+  padding: 10px;
+}
+
+.days{
+  font-size: 25px;
+}
+.efecto {
+  --mask:
+  
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+          height: 40vh;
+}
+
+
+.accordion{
+  width: 65%;
+  margin: 5px auto;
+  padding-bottom: 8px;
+}
+
+
+.container{
+  padding: 3vh;
+}
+
+
+
+
+.team {
+  padding-top: 35px;
+}
+
+
+
+.team-boxed {
+  color:#313437;
+  background-color:#eef4f7;
+}
+
+.team-boxed p {
+  color:#7d8285;
+}
+
+.team-boxed h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .team-boxed h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.team-boxed .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.team-boxed .intro p {
+  margin-bottom:0;
+}
+
+.team-boxed .people {
+  padding:50px 0;
+}
+
+.team-boxed .item {
+  text-align:center;
+}
+
+.team-boxed .item .box {
+  text-align:center;
+  padding:30px;
+  background-color:#fff;
+  margin-bottom:30px;
+}
+
+.team-boxed .item .name {
+  font-weight:bold;
+  margin-top:28px;
+  margin-bottom:8px;
+  color:inherit;
+}
+
+.team-boxed .item .title {
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#d0d0d0;
+  letter-spacing:2px;
+  font-size:13px;
+}
+
+.team-boxed .item .description {
+  font-size:15px;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+
+.team-boxed .item img {
+  max-width:150px;
+}
+
+.team-boxed .social {
+  font-size:18px;
+  color:#a2a8ae;
+}
+
+.team-boxed .social a {
+  color:inherit;
+  margin:0 10px;
+  display:inline-block;
+  opacity:0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity:1;
+}
+
+
+
+
+footer{
+  background-color: #7d8285;
+  padding: 25px;
+}
+
+
+.created {
+  text-align: center;
+  color: #a2a8ae;
+}
+.created a {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+.infomation-footer {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+  
+}
+
+.infomation-footer i{
+  font-size: 20px;
+  margin: 0 4px;
+}
+.infomation-footer p {
+  color: #e2e0e0;
+  font-size: 25px;
+}
+
+.google-map{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 10px;
+    width: 100%;
+}
+
+.map {
+  transition: all 1s;
+}
+.map:hover{
+  box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.124);;
+}
+.turnos {
+  padding-top: 2.8vw;
+}
+@media (max-width: 767px) {
+  .welcome-text {
+    font-size: 4vw; /* Ajusta el tamaño de fuente basado en el viewport width */
+    width: 80vw; /* Ajusta el ancho del texto basado en el viewport width */
+    top: 15vh; /* Ajusta la posición vertical basada en el viewport height */
+  }
+  .navbar{
+    background-color: #e2e0e0;
+    
+  }
+.servicios .card{
+  display: block;
+  margin: 10px auto;
+}
+.carrousel-cont{
+  height: 250px;
+}
+.accordion{
+  width: 100%;
+  margin: 5px auto;
+}
+.infomation-footer {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  
+}
+.whatsapp-button{
+  display: none;
+}
+.turnos {
+  padding-top: 20vw;
+}
+.efecto {
+  --mask:
+  
+    radial-gradient(67.08px at 50% calc(100% - 90.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(67.08px at 50% calc(100% + 60.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+          height: 50vh;
+}
+.container{
+  padding: 0;
+}
+}
+
+.textoTurno{
+  letter-spacing:1.5px;
+  line-height: 2.5;
+}
