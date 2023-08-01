@@ -1,12 +1,6 @@
 
 function Home(){
-    const style = {
-        display: 'flex',
-        justifyContent: 'center'
-    }
-    const medida = {
-        width: "18rem;"
-    }
+
     return(
         <main> 
      
@@ -36,7 +30,7 @@ function Home(){
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur sagittis sapien, non cursus felis convallis vitae. Maecenas iaculis mauris a nibh gravida, id commodo mauris pellentesque.
+              <p className="about-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur sagittis sapien, non cursus felis convallis vitae. Maecenas iaculis mauris a nibh gravida, id commodo mauris pellentesque.
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dignissimos ea dolore quibusdam quae itaque fugit. Natus nisi maxime totam! Corporis dolore asperiores ipsam quod sequi sed dolorem inventore quibusdam!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id recusandae cupiditate aperiam, fugiat blanditiis quod qui nam, porro reiciendis ut ipsa suscipit consectetur non ducimus, ab tempore laudantium? Quis!
               </p>
@@ -49,46 +43,40 @@ function Home(){
       <section className="servicios">
         <h3>Nuestros servicios</h3>
         <hr/>
-        <div className="container"> 
-          <div className="row"> 
-            <div className="col-md-4"> 
-            <div className="card card1" style={medida}>
-            <div className="card-body text-center">
-              <div style={style}> 
-                <i className="fa-solid fa-syringe fa-spin fa-spin-reverse"></i>
-              </div>
-                <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    
-              </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+            <h4 className="h4-service text-center">Servicio 1</h4>
+              <p className="textoTurno">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia. Sed, unde nobis. Ratione sed ipsa, excepturi, nihil nobis tempora dolorum cupiditate corporis ea similique velit odit sit natus illum?
+              </p>
+            </div>
+            <div className="col-md-6 order-md-first imagen">
             </div>
           </div>
-          <div className="col-md-4"> 
-            <div className="card card2" style={medida}>
-            <div className="card-body text-center">
-              <div style={style}>
-                <i className="fa-solid fa-vial-circle-check fa-spin fa-spin-reverse"></i>
-              </div>
-                <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    
-              </div>
+       
+          <div className="row">
+            <div className="col-md-6">
+            <h4 className="h4-service text-center">Servicio 2</h4>
+              <p className="textoTurno">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quisquam incidunt quae reiciendis et autem culpa exercitationem laborum atque pariatur, commodi esse officiis expedita illo sunt! Nostrum reiciendis accusamus architecto!
+              </p>
+            </div>
+            <div className="col-md-6 order-md-last imagen">
             </div>
           </div>
-          <div className="col-md-4"> 
-            <div className="card card3" style={medida}>
-            <div class="card-body text-center">
-              <div style={style}>
-                <i class="fa-solid fa-stethoscope fa-spin"></i>
-              </div>
-                <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+
+          <div className="row">
+            <div className="col-md-6">
+            <h4 className="h4-service text-center">Servicio 3</h4>
+              <p className="textoTurno">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia. Sed, unde nobis. Ratione sed ipsa, excepturi, nihil nobis tempora dolorum cupiditate corporis ea similique velit odit sit natus illum?
+              </p>
+            </div>
+            <div className="col-md-6 order-md-first imagen">
             </div>
           </div>
         </div>
-        
-      </div>
       </section>
     
     <section className="turnos efecto">

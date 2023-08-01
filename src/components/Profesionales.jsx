@@ -14,32 +14,32 @@ function Profesionales(){
                         <Card 
                         name="Mauro Lombardo"
                         occupation="Rapero"
-                        imageSrc= "https://www.rionegro.com.ar/wp-content/uploads/2020/09/unnamed-5.jpg"
+                        imageSrc= "https://i.pinimg.com/1200x/20/1e/35/201e351e0dbeed7e93908c1eeb263f5d.jpg"
                         />
                         <Card 
                         name="Mauro Lombardo"
                         occupation="Rapero"
-                        imageSrc= "https://www.rionegro.com.ar/wp-content/uploads/2020/09/unnamed-5.jpg"
+                        imageSrc= "https://i.pinimg.com/1200x/20/1e/35/201e351e0dbeed7e93908c1eeb263f5d.jpg"
                         />
                         <Card 
                         name="Mauro Lombardo"
                         occupation="Rapero"
-                        imageSrc= "https://www.rionegro.com.ar/wp-content/uploads/2020/09/unnamed-5.jpg"
+                        imageSrc= "https://i.pinimg.com/1200x/20/1e/35/201e351e0dbeed7e93908c1eeb263f5d.jpg"
                         />
                         <Card 
                         name="Mauro Lombardo"
                         occupation="Rapero"
-                        imageSrc= "https://www.rionegro.com.ar/wp-content/uploads/2020/09/unnamed-5.jpg"
+                        imageSrc= "https://i.pinimg.com/1200x/20/1e/35/201e351e0dbeed7e93908c1eeb263f5d.jpg"
                         />
                         <Card 
                         name="Mauro Lombardo"
                         occupation="Rapero"
-                        imageSrc= "https://www.rionegro.com.ar/wp-content/uploads/2020/09/unnamed-5.jpg"
+                        imageSrc= "https://i.pinimg.com/1200x/20/1e/35/201e351e0dbeed7e93908c1eeb263f5d.jpg"
                         />
                         <Card 
                         name="Mauro Lombardo"
                         occupation="Rapero"
-                        imageSrc= "https://www.rionegro.com.ar/wp-content/uploads/2020/09/unnamed-5.jpg"
+                        imageSrc= "https://i.pinimg.com/1200x/20/1e/35/201e351e0dbeed7e93908c1eeb263f5d.jpg"
                         />
                     </div>
                 </div>

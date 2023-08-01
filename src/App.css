@@ -392,9 +392,21 @@ footer{
 .container{
   padding: 0;
 }
+.about-me{
+  padding: 0 10vw;
+}
+.textoTurno{
+  padding: 0 10vw;
+}
 }
 
 .textoTurno{
   letter-spacing:1.5px;
   line-height: 2.5;
+}
+.h4-service{
+  
+  font-weight:bold;
+  margin: 1.2vw;
+  text-decoration: underline solid #e3e3e3a3;
 }
