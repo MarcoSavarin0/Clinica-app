@@ -62,7 +62,7 @@ function Home(){
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quisquam incidunt quae reiciendis et autem culpa exercitationem laborum atque pariatur, commodi esse officiis expedita illo sunt! Nostrum reiciendis accusamus architecto!
               </p>
             </div>
-            <div className="col-md-6 order-md-last imagen">
+            <div className="col-md-6 order-md-last imagen2">
             </div>
           </div>
 
@@ -73,7 +73,7 @@ function Home(){
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia. Sed, unde nobis. Ratione sed ipsa, excepturi, nihil nobis tempora dolorum cupiditate corporis ea similique velit odit sit natus illum?
               </p>
             </div>
-            <div className="col-md-6 order-md-first imagen">
+            <div className="col-md-6 order-md-first imagen3">
             </div>
           </div>
         </div>

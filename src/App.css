@@ -102,7 +102,20 @@
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
-  
+}
+.imagen2{
+  height: 700px;
+  background-image: url('../public/img/salaestarreal.jpeg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.imagen3{
+  height: 700px;
+  background-image: url('../public/img/microescopio2.jpeg');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .servicios h3 {
   text-align: center;
