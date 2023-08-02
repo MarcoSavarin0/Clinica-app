@@ -157,9 +157,31 @@
 
 
 
+.about-us {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+.about-us.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 
+.servicios .row .col-md-6 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Agrega la clase 'appear' para mostrar los bloques de servicio cuando son visibles */
+.servicios .row .col-md-6.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 

@@ -1,13 +1,56 @@
-
+import React, { useState, useEffect } from "react";
 function Home(){
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutSection = document.querySelector(".about-us");
+      if (aboutSection) {
+        const sectionTop = aboutSection.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
 
+        if (sectionTop < windowHeight * 0.8) {
+          aboutSection.classList.add("appear");
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  useEffect(() => {
+    const handleIntersection = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("appear");
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3, // Puedes ajustar este valor dependiendo de cuándo quieres que aparezca cada bloque de servicio.
+    };
+
+    const observer = new IntersectionObserver(handleIntersection, options);
+
+    const serviceBlocks = document.querySelectorAll(".servicios .row .col-md-6");
+    serviceBlocks.forEach((block) => observer.observe(block));
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
     return(
         <main> 
      
       
         <section className="carrousel-cont">  
           <div className="welcome-text">
-            <h1>Clinica Hematologica Santa Fe</h1>
+            <h1 >Clinica Hematologica Santa Fe</h1>
           </div>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
@@ -41,7 +84,7 @@ function Home(){
         </div>
       </section>
       <section className="servicios">
-        <h3>Nuestros servicios</h3>
+        <h3 >Nuestros servicios</h3>
         <hr/>
         <div className="container">
           <div className="row">

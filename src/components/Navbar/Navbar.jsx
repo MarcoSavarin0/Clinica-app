@@ -25,8 +25,8 @@ function Navbar(){
                 </Link>
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" to="https://api.whatsapp.com/send?phone=TU_NUMERO_DE_TELEFONO" target="_blank">Whatsapp</Link></li>
-                  <li><Link className="dropdown-item" to="/telefono">Telefono</Link></li>
-                  <li><Link className="dropdown-item" to="/email">E-mail</Link></li>
+                  <li><Link className="dropdown-item" to="tel:+1234567890">Telefono</Link></li>
+                  <li><Link className="dropdown-item" to="mailto:ejemplo@correo.com">E-mail</Link></li>
                 </ul>
               </li>
             </ul>
